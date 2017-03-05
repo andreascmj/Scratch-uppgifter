@@ -36,7 +36,7 @@ Projektet kommer nu ha fått namnet Bug Race mall remix. Markera namnet och byt 
 
 Nu när du lyckats remixa projektet kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
-Börja med att dra skalbagge-sprajten till den målade banan (som på bilden ovanför). Tryck på SKRIPT-fliken om den inte redan är vald.
+Börja med att välja skalbagge-sprajten. Tryck sedan på SKRIPT-fliken om den inte redan är vald.
 
 Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
 Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START. För att göra det måste du lägga till ditt första skript som säger:
