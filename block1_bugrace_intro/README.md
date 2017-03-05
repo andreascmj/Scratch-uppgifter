@@ -4,50 +4,32 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
-## Delmoment 1: Välja en skalbagge som sprajt
+För att lite snabbare komma till programmeringen kommer vi använda ett projekt som redan är påbörjat.
 
-I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
+## Delmoment 1: Hitta projektet att remixa
 
-1. Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
-![image alt text](image_2.png)
+Klicka i sökfältet på startsidan och sök efter Bug Race Mall.
+![image alt text](Sök.png)
 
-2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för NY SPRAJT:
-![image alt text](image_3.png)
+I sökresultatet finns det ett projekt som kodstugan_sundbyberg har lagt upp. Klicka på det.
+![image alt text](Projektbild.png)
 
-  I menyn till vänster finns en kategori som heter "Djur", tryck på den. I listan hittar du skalbaggen. Tryck på skalbaggen så att den blir markerad och sedan på OK nere till höger.
+Du kan nu se projektet. För att se vad som finns inuti projektet, klicka på Se inuti-knappen.
+![image alt text](Se inuti.png)
 
-3. För att spelet ska bli enklare att spela måste vi minska storleken på skalbaggen. Tryck på förminskningsknappen och sedan på sprajten tills den är lagom stor (som en tummnagel ungefär).
+Som du ser är projektet tomt, förutom att det finns en skalbagge och en bana. Det är därför dags att lägga till lite skript så att något händer.
 
-  ![image alt text](image_4.png)
+## Delmoment 2: Remixa projektet
 
-  ![image alt text](image_5.png)
+För att kunna ändra någon annans projekt så måste du klicka på remix-knappen högst uppe i högra hörnet.
+![image alt text](Remix.png)
 
-Nu är skalbaggen klar och det är dags att måla banan som skalbaggen skall springa på!
-
-
-## Delmoment 2: Rita en bana som bakgrund
-
-Du ska nu få rita en grå bana på grönt gräs som skalbaggen kan springa på.
-
-4. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
-
-  ![image alt text](image_6.png)	![image alt text](image_7.png)
-
-5. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
-  ![image alt text](image_8a.png)
-
-6. Tryck på PENSEL och välj en grå färg. Gör penseln större genom att dra reglaget ända till höger. Rita nu en oval (utdragen cirkel) - gör den så stor som du kan!
-
-  ![image alt text](image_8.png)	![image alt text](image_9.png)
-
-  Ungefär så här skall banan se ut. Om spåret är väldigt smalt kommer spelet bli väldigt svårt. Är banan bred blir spelet lättare!
-
-  ![image alt text](image_10.png)
-
+Projektet kommer nu ha fått namnet Bug Race mall remix. Markera namnet och byt ut det till det du vill, till exempel Mitt Bug Race.
+![image alt text](Byt namn.png)
 
 ## Delmoment 3: Ditt första skript
 
-Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
+Nu när du lyckats remixa projektet kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
 
 Börja med att dra skalbagge-sprajten till den målade banan (som på bilden ovanför). Tryck på SKRIPT-fliken om den inte redan är vald.
 
