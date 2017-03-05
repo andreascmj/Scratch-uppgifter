@@ -9,12 +9,15 @@ För att lite snabbare komma till programmeringen kommer vi använda ett projekt
 ## Delmoment 1: Hitta projektet att remixa
 
 Klicka i sökfältet på startsidan och sök efter Bug Race Mall.
+
 ![image alt text](Sök.png)
 
 I sökresultatet finns det ett projekt som kodstugan_sundbyberg har lagt upp. Klicka på det.
+
 ![image alt text](Projektbild.png)
 
 Du kan nu se projektet. För att se vad som finns inuti projektet, klicka på Se inuti-knappen.
+
 ![image alt text](Se inuti.png)
 
 Som du ser är projektet tomt, förutom att det finns en skalbagge och en bana. Det är därför dags att lägga till lite skript så att något händer.
@@ -22,9 +25,11 @@ Som du ser är projektet tomt, förutom att det finns en skalbagge och en bana. 
 ## Delmoment 2: Remixa projektet
 
 För att kunna ändra någon annans projekt så måste du klicka på remix-knappen högst uppe i högra hörnet.
+
 ![image alt text](Remix.png)
 
 Projektet kommer nu ha fått namnet Bug Race mall remix. Markera namnet och byt ut det till det du vill, till exempel Mitt Bug Race.
+
 ![image alt text](Byt namn.png)
 
 ## Delmoment 3: Ditt första skript
