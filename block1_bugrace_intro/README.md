@@ -4,39 +4,57 @@ Nu ska du få  skapa ett roligt spel som är enkelt även om du aldrig har jobba
 
 Ett exempel på det färdiga spelet kan du se  <a href="https://scratch.mit.edu/projects/27697024/" target="_blank">här på Scratch</a>
 
-För att lite snabbare komma till programmeringen kommer vi använda ett projekt som redan är påbörjat.
+![image alt text](example.png)
 
-## Delmoment 1: Hitta projektet att remixa
+## 1: Välja en skalbagge som sprajt
 
-Klicka i sökfältet på startsidan och sök efter Bug Race Mall.
+I ditt nya projekt visas en katt som enda sprajt på vit bakgrund. Du får börja med att ta bort katten och välja en ny sprajt.
 
-![image alt text](Sök.png)
+1. Tryck på saxen (högt uppe i mitten) och sedan på katten så försvinner den.
 
-I sökresultatet finns det ett projekt som kodstugan_sundbyberg har lagt upp. Klicka på det.
+    ![image alt text](image_2.png)
 
-![image alt text](Projektbild.png)
+2. Nu vill du lägga till en skalbagge istället. Tryck på knappen för NY SPRAJT:
 
-Du kan nu se projektet. För att se vad som finns inuti projektet, klicka på Se inuti-knappen.
+    ![image alt text](image_3.png)
 
-![image alt text](Se inuti.png)
+  I menyn till vänster finns en kategori som heter "Djur", tryck på den. I listan hittar du skalbaggen. Tryck på skalbaggen så att den blir markerad och sedan på OK nere till höger.
 
-Som du ser är projektet tomt, förutom att det finns en skalbagge och en bana. Det är därför dags att lägga till lite skript så att något händer.
+3. För att spelet ska bli enklare att spela måste vi minska storleken på skalbaggen. Tryck på förminskningsknappen och sedan på sprajten tills den är lagom stor (som en tummnagel ungefär).
 
-## Delmoment 2: Remixa projektet
+    ![image alt text](image_4.png)
 
-För att kunna ändra någon annans projekt så måste du klicka på remix-knappen högst uppe i högra hörnet.
+    ![image alt text](image_5.png)
 
-![image alt text](Remix.png)
+Nu är skalbaggen klar och det är dags att måla banan som skalbaggen skall springa på!
 
-Projektet kommer nu ha fått namnet Bug Race mall remix. Markera namnet och byt ut det till det du vill, till exempel Mitt Bug Race.
 
-![image alt text](Byt namn.png)
+## 2: Rita en bana som bakgrund
 
-## Delmoment 3: Ditt första skript
+Du ska nu få rita en grå bana på grönt gräs som skalbaggen kan springa på.
 
-Nu när du lyckats remixa projektet kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
+4. För att ändra bakgrunden trycker du först på SCEN längst till vänster och sedan på fliken BAKGRUNDER högst upp i mitten.
 
-Börja med att välja skalbagge-sprajten. Tryck sedan på SKRIPT-fliken om den inte redan är vald.
+    ![image alt text](image_6.png)  ![image alt text](image_7.png)
+
+5. Tryck på FYLL MED FÄRG (målarburken). Välj en grön färg och tryck på den vita bakgrunden, då fylls den med den valda gröna färgen.
+
+  ![image alt text](image_8a.png)
+
+6. Tryck på PENSEL och välj en grå färg. Gör penseln större genom att dra reglaget ända till höger. Rita nu en oval (utdragen cirkel) - gör den så stor som du kan!
+
+  ![image alt text](image_8.png)  ![image alt text](image_9.png)
+
+  Ungefär så här skall banan se ut. Om spåret är väldigt smalt kommer spelet bli väldigt svårt. Är banan bred blir spelet lättare!
+
+  ![image alt text](image_10.png)
+
+
+## 3: Ditt första skript
+
+Nu när bakgrunden är färdig kan du börja skapa ditt första skript. Glöm inte att **spara** ofta!
+
+Börja med att dra skalbagge-sprajten till den målade banan (som på bilden på föregående sida). Tryck på SKRIPT-fliken om den inte redan är vald.
 
 Har du lagt märke till START- och STOPP-knappen än? Se om du kan hitta dem.
 Det första du ska göra är att se till att skalbaggen rör sig när du trycker på START. För att göra det måste du lägga till ditt första skript som säger:
@@ -65,7 +83,7 @@ Det här är en LOOP som gör att sprajten fortsätter röra sig så länge prog
 > Testa att trycka på START. Nu blir det fart på skalbaggen! Prova vad som händer om du ändrar antalet steg till en lägre siffra. Välj en hastighet som du tror är lagom för att kunna styra skalbaggen.
 
 
-## Delmoment 4: Sätt en Startposition
+## 4: Sätt en Startposition
 
 För att slippa dra tillbaka skalbaggen varje gång du trycker på START kan du säga åt datorn att placera den på en särskild plats varje gång du startar spelet. Detta kallas för att initiera programmet, du gör ett INIT-SKRIPT som berättar för datorn hur programmet ska starta.
 
@@ -78,7 +96,7 @@ Innan du gör ditt skript, flytta skalbaggen till en startposition som du välje
 Nu kommer skalbaggen automatiskt att flyttas till sin startposition varje gång du trycker på flaggan, utan att du behöver dra den dit själv!
 
 
-## Delmoment 5: Styra skalbaggen
+## 5: Styra skalbaggen
 
 Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver du två små skript. Ett som säger åt datorn att svänga höger på skalbaggen när du trycker ned höger piltangent, och ett annat som säger åt den att svänga vänster när du trycker ned vänster piltangent.
 
@@ -91,7 +109,7 @@ Nästa steg blir att göra det möjligt att styra skalbaggen! För det behöver 
 > Testa vad som händer nu när du trycker på START. Du kan styra skalbaggen åt båda hållen med piltangenterna!
 
 
-## Delmoment 6: Ändra startriktning
+## 6: Ändra startriktning
 
 Om du trycker på START igen märker du att skalbaggen behåller den riktning som den hade när du slutade sist. Det kan du lösa genom att lägga in ett till init-skript som säger åt datorn att skalbaggen alltid ska vara vänd åt höger när du startar spelet.
 
@@ -100,7 +118,7 @@ Om du trycker på START igen märker du att skalbaggen behåller den riktning so
   ![image alt text](image_16.png)
 
 
-## Delmoment 7: Känna av gräset
+## 7: Känna av gräset
 
 Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den hamnar utanför din utmålade bana. Hur ska den kunna göra det? Det kan du lösa med ett skript som känner av vilken färg som skalbaggen rör sig över. Du behöver skapa ett VILLKOR för skalbaggen: OM skalbaggen rör vid färgen grön betyder det att den har åkt av banan, och DÅ ska spelet ta slut - Game Over!
 
@@ -115,7 +133,7 @@ Nästa steg är att skapa ett skript som gör att skalbaggen känner av när den
 > Testa ditt spel! Händer något när skalbaggen nuddar det gröna gräset? Om inte, vad tror du att det kan bero på?
 
 
-## Delmoment 8: Göra klart skriptet
+## 8: Göra klart skriptet
 
 Något saknas! När vill du att datorn ska känna av om skalbaggen nuddar det gröna gräset? Det behöver göras efter varje steg skalbaggen tar, för att inte missa att den hamnar utanför banan. Därför måste du slå ihop skriptet som känner av gräset med skriptet som får skalbaggen att röra sig.
 
@@ -144,7 +162,7 @@ Det får du göra i nästa uppgift!
 
 * Vad är en sprajt?
 
-* Vad är en loop? 
+* Vad är en loop?
 
 * Varför kan det vara bra att använda en loop?
 
