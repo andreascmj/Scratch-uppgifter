@@ -68,7 +68,7 @@ En bra uppgift att kolla på för att få inspiration är `block3_jaktenpanyckel
 
 * I början av uppgiften kan bilderna gärna få vara hela algoritmer, men de ska sedan övergå till bilder på block som användaren får plocka ihop själv
 
-* Beskär bilderna så att det inte är minimalt med grått runt dem
+* Beskär bilderna så att det är minimalt med grått runt dem
 
 * Försök att skapa bilder för max 3 algoritmer, gör inte bilderna för stora med massor av block.
 
